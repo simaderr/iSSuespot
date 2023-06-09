@@ -10,7 +10,7 @@ namespace issuespot_backend.Models
 
         public String EMail { get; set; }
 
-        public Guid team_id { get; set; }
+        public Guid TeamId { get; set; }
 
         public Role Role { get; set; }
 
