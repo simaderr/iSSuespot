@@ -6,15 +6,15 @@ namespace issuespot_backend.Models
 {
     public class User : BaseEntity
     {
-        public String UserName { get; set; }
+        public String UserName { get; set; } = "";
 
-        public String EMail { get; set; }
+        public String EMail { get; set; } = "";
 
         public Guid TeamId { get; set; }
 
         public Role Role { get; set; }
 
         [JsonIgnore]
-        public string PasswordHash { get; set; }
+        public string PasswordHash { get; set; } = "";
     }
 }

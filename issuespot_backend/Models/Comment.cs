@@ -6,7 +6,7 @@
 
         public Guid UserId { get; set; }
 
-        public String Text { get; set; }
+        public String Text { get; set; } = "";
 
         public DateTime CreationDate { get; set; }
     }
